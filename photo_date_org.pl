@@ -109,8 +109,8 @@ my @skips = ();
 my $curdir = &getcwd; # get the current working directory "."
 my $source_dir = $curdir; # use the current directory to process by default
 # $dest_dir is where the files will be copied and this directory will be excluded
-# my $dest_dir = $curdir . "/org"; # use ./org for subdirectories to create
-my $dest_dir = "/nas/photos/org/"; # hard-coded example
+my $dest_dir = $curdir . "/org"; # use ./org for subdirectories to create
+# my $dest_dir = "/nas/photos/org/"; # hard-coded example
 
 & main(@ARGV); # Start the program by executing the main function
 
