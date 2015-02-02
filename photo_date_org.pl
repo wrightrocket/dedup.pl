@@ -66,7 +66,7 @@ use Cwd;
 my $DEBUG = 0; # 1 to print debug output, 0 to not
 my $VERBOSE = 1; # 1 to print output, 0 to run silently except errors
 my $PROGRESS = 0; # 1 to show progress, 0 to run silently except errors
-my $GO = 1; # 1 to automatically confirm, 0 to confirm before running
+my $GO = 0; # 1 to automatically confirm, 0 to confirm before running
 my $OVERWRITE = 0; # 1 to overwrite destination files, 0 to skip
 my $DELETE = 1; # 1 to delete original files, 0 to retain them
 
