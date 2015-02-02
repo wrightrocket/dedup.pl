@@ -1,4 +1,4 @@
-dedup.pl
+De-duplicate photos with Perl
 ========
 
 Perl - De-duplicate photos with dedup.pl which uses md5sum digest
